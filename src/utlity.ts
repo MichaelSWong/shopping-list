@@ -1,5 +1,3 @@
-import { IQuote } from './interfaces';
-
-export const getRandomQuotes = (quotes: IQuote[]) => {
-  return quotes[Math.floor(Math.random() * quotes.length)];
+export const sum = (a: number, b: number) => {
+  return a + b;
 };
